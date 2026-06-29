@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>error</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="bg">
+            <div class="orb a"></div>
+            <div class="orb b"></div>
+            <div class="orb c"></div>
+        </div>
+        <header class="havbar">
+            <div class="container">
+                <div class="havbar-inner">
+                    <img src="./images/Logo.svg" alt="logo" />
+
+                    <button class="nav-toggle" id="menuBtn">☰</button>
+
+                    <ul class="nav-links" id="navlinks">
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <section id="about" class="hero">
+                <div>
+                    <h1>Hi, I'm <span class="gradient">Artem Khegai</span></h1>
+                    <p class="role">
+                        <span>IT programming</span>
+                    </p>
+                    <p>
+                        Passionate about creating beautiful, functional web experiences. I
+                        specialize in modern frontend technologies and love bringing designs
+                        to life through clean, efficient code.
+                    </p>
+                </div>
+                <div class="avatar-card">
+                    <div class="avatar-inner">
+                        <div class="avatar-placeholder">
+                            <img src="./images/Avatar-icon.svg" alt="AVA" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="buttons">
+                <a class="btn btn-download" href="#" id="downloadCv">
+                    <img src="./images/Download.svg" alt="" />
+                    Download CV
+                </a>
+                <a class="btn btn-contacts" href="#contacts">
+                    <img src="./images/Phone.svg" alt=""   class="default-phone" />
+                    <img src="./images/Green-phone.svg" alt="" class="green-phone" />
+                    Contact me
+                </a>
+            </div>
+            <section id="skills">
+                <div class="section-header">
+                    <h2>
+                        <span class="hash">#</span>Skills
+                    </h2>
+                </div>
+                <div class="ppp">
+                    <div class="skill-card">
+                        <img src="./images/icons/html-icon.svg" alt="" class="skill-icon" />
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-role">Markup</div>
+                        <div class="skill-level"><span></span></div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="./images/icons/css-icon.svg" alt="" class="skill-icon" />
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-role">Styling</div>
+                        <div class="skill-level"><span></span></div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="./images/icons/js-icon.svg" alt="" class="skill-icon" />
+                        <div class="skill-name">JS</div>
+                        <div class="skill-role">Logic</div>
+                        <div class="skill-level"><span></span></div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="./images/icons/react-icon.svg" alt="" class="skill-icon" />
+                        <div class="skill-name">REACT</div>
+                        <div class="skill-role">Frontend</div>
+                        <div class="skill-level"><span></span></div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="./images/icons/git-icon.svg" alt="" class="skill-icon" />
+                        <div class="skill-name">GIT</div>
+                        <div class="skill-role">Versioning</div>
+                        <div class="skill-level"><span></span></div>
+                    </div>
+                    <div class="skill-card">
+                        <img src="./images/icons/figma-icon.svg" alt="" class="skill-icon" />
+                        <div class="skill-name">FIGMA</div>
+                        <div class="skill-role">Design</div>
+                        <div class="skill-level"><span></span></div>
+                    </div>
+                </div>
+            </section>
+            <section id="experience">
+                <div class="section-header">
+                    <h2>
+                        <span class="hash">#</span>Experience
+                    </h2>
+                </div>
+                <div class="timeline">
+                    <div class="exp-card">
+                        <div class="exp-top">
+                            <h3 class="exp-title">Mancho School intensive</h3>
+                            <span class="exp-date">Jun 2026 – Jul 2026</span>
+                        </div>
+                        <p class="exp-role">Frontend developer</p>
+                        <p class="exp-desc">
+                            Developed a portfolio website and participated in a 
+                            hackathon on a 
+                            free topic.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects-section">
+                <div class="section-header">
+                    <h2><span class="hash">#</span>Projects</h2>
+                </div>
+                <div class="projects-toolbar">
+                    <button class="btn btn-primary LLL" id="openAddModal">
+                        + New project
+                    </button>
+                    <div class="projects-list LLL" id="projectsGrid">
+                        <div class="project-card">
+                        <div class="project-card add" id="addTitle">
+                            <div class="plus">+</div>
+                            <div class="add-text">Add new project</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contacts">
+                <div class="section-header">
+                    <h2><span class="hash">#</span>Contacts</h2>
+                </div>
+                <div class="contact-grid">
+                    <a class="contact" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">
+                        <div class="contact-icon">
+                            <img src="./images/gmail_icon.svg" alt="Email icon">
+                        </div>
+                        <div class="contact-info">
+                            <div class="gmail">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">art991122@gmail.com</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="contact" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">
+                        <div class="contact-icon">
+                            <img src="./images/Telegram.svg" alt="Telegram icon">
+                        </div>
+                        <div class="contact-info">
+                            <div class="Telegram">
+                                <span class="contact-label">Telegram</span>
+                                <span class="contact-value">@Dmdmwm</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="contact" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">
+                        <div class="contact-icon">
+                            <img src="./images/GitHub.svg" alt="GitHub icon">
+                        </div>
+                        <div class="contact-info">
+                            <div class="GitHub">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">art991122-stack</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <div class="modal-backdrop" id="modal">
+            <div class="modal">
+
+                <h3 id="modalTitle">New project</h3>
+
+                <div class="field">
+                <label for="p-title">Title</label>
+                <input id="p-title" type="text" placeholder="My cool project" maxlength="60" />
+                </div>
+
+                <div class="field">
+                <label for="p-desc">Short description</label>
+                <textarea id="p-desc" placeholder="What does it do?" maxlength="160"></textarea>
+                </div>
+
+                <div class="field">
+                <label for="p-tags">Tags (comma separated)</label>
+                <input id="p-tags" type="text" placeholder="HTML, CSS, JavaScript" />
+                </div>
+
+                <div class="modal-actions">
+                <button class="btn btn-secondary" id="cancelBtn">Cancel</button>
+                <button class="btn btn-primary" id="saveBtn">Save</button>
+                </div>
+
+            </div>
+        </div>
+        <script src="test.js"></script>
+    </body>
+</html>

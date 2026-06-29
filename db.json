@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "description": "Native javascript CRUD",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JAVA SCRIPT"
+      ],
+      "id": "1"
+    },
+    {
+      "title": "Todo App",
+      "description": "Native javascript CRUD",
+      "tags": [
+        "JAVA",
+        "SCRIPT",
+        "DOM"
+      ],
+      "id": "2"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
